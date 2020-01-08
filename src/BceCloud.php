@@ -2,6 +2,7 @@
 namespace Cstopery\BceCloud;
 
 include 'BaiduBce.phar';
+use Illuminate\Support\Facades\Config;
 use BaiduBce\BceClientConfigOptions;
 use BaiduBce\Util\Time;
 use BaiduBce\Util\MimeTypes;
