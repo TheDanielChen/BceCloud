@@ -54,7 +54,7 @@ class BceCloud {
     public function vcaAnalyze($source, $options = [])
     {
         $client = $this->getClient('vca');   
-        return $client->analyze($source, $options = []);
+        return $client->analyze($source, $options);
         
     }
 
